@@ -472,20 +472,57 @@ button, input, select, textarea {
     background: linear-gradient(180deg, var(--color-bg-darkest) 0%, var(--color-bg-darker) 100%);
 }
 
-.showreel-wrapper {
-    max-width: 960px;
+.showreel-phone-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 0 auto;
-    padding: 12px;
-    box-shadow: var(--shadow-neon-purple);
+    max-width: 320px;
 }
 
-.video-container {
+.phone-frame {
     width: 100%;
-    aspect-ratio: 16/9;
-    border-radius: var(--border-radius-md);
+    aspect-ratio: 9 / 19;
+    background: #000;
+    border-radius: 40px;
+    padding: 12px;
+    border: 3px solid rgba(255, 255, 255, 0.12);
+    box-shadow: 0 0 40px var(--color-primary-glow), inset 0 0 10px rgba(0, 0, 0, 0.8);
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: var(--color-glass-bg);
+    backdrop-filter: var(--glass-blur);
+    -webkit-backdrop-filter: var(--glass-blur);
+}
+
+.phone-speaker {
+    width: 60px;
+    height: 4px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 2px;
+    margin: 6px auto 10px;
+    flex-shrink: 0;
+}
+
+.phone-screen {
+    flex-grow: 1;
+    width: 100%;
+    border-radius: 28px;
     overflow: hidden;
     position: relative;
     background: #000;
+}
+
+.phone-home-indicator {
+    width: 100px;
+    height: 4px;
+    background-color: rgba(255, 255, 255, 0.25);
+    border-radius: 2px;
+    margin: 10px auto 4px;
+    flex-shrink: 0;
 }
 
 .player-video {
@@ -532,7 +569,7 @@ button, input, select, textarea {
 
 .portfolio-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
     gap: 30px;
 }
 
@@ -553,6 +590,10 @@ button, input, select, textarea {
     aspect-ratio: 16/9;
     overflow: hidden;
     background-color: #000;
+}
+
+.portfolio-thumbnail.vertical-thumb {
+    aspect-ratio: 9/16;
 }
 
 .portfolio-thumbnail img {
@@ -1079,6 +1120,10 @@ button, input, select, textarea {
     box-shadow: var(--shadow-neon-purple);
 }
 
+.modal-content.vertical-modal {
+    max-width: 340px;
+}
+
 .modal-video-title {
     font-family: var(--font-display);
     font-size: 1.25rem;
@@ -1092,6 +1137,10 @@ button, input, select, textarea {
     border-radius: var(--border-radius-sm);
     overflow: hidden;
     background: #000;
+}
+
+.modal-video-container.vertical-video-container {
+    aspect-ratio: 9/16;
 }
 
 /* ==========================================================================
