@@ -126,6 +126,14 @@ button, input, select, textarea {
     display: inline-block;
 }
 
+.serif-text {
+    font-family: 'Instrument Serif', serif;
+    font-style: italic;
+    font-weight: 400;
+    text-transform: none;
+    letter-spacing: normal;
+}
+
 .glass-panel {
     background: var(--color-glass-bg);
     border: 1px solid var(--color-glass-border);
