@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Professional Video Editor and Motion Designer Portfolio. Crafting high-impact visual stories for creators, brands, and international campaigns.">
-    <title>Viera Visuals | Professional Video Editor Portfolio</title>
+    <meta name="description" content="Professional Short-Form & Reels Video Editor Portfolio. Engineering viral, high-retention video content for creators, brands, and agencies worldwide.">
+    <title>Viera Visuals | Short-Form & Reels Video Editor Portfolio</title>
     
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -35,7 +35,7 @@
                 </ul>
             </nav>
             <a href="#contact" class="btn btn-primary btn-sm" id="header-cta">
-                <i class="fa-solid fa-paper-plane"></i> Hire Me
+                <i class="fa-solid fa-bolt"></i> Go Viral
             </a>
             <button class="mobile-menu-toggle" id="menu-toggle" aria-label="Toggle Menu">
                 <span></span>
@@ -55,19 +55,19 @@
             </video>
         </div>
         <div class="container hero-container">
-            <span class="hero-tagline" id="hero-badge">AVAILABLE FOR INTERNATIONAL BOOKINGS</span>
+            <span class="hero-tagline" id="hero-badge">VIRAL DESIGN ENGINEER — 100M+ VIEWS GENERATED</span>
             <h1 class="hero-title" id="hero-main-title">
-                CRAFTING VISUAL STORIES THAT <span class="gradient-text">DEMAND ATTENTION</span>
+                VIRAL SHORT-FORM VIDEOS THAT <span class="gradient-text">KEEP VIEWERS HOOKED</span>
             </h1>
             <p class="hero-subtitle" id="hero-desc">
-                High-end video editing, surgical color grading, and dynamic motion design engineered to elevate creators and global brands.
+                High-retention editing, custom sound design, speed ramping, and dynamic captions engineered to dominate TikTok, Reels, and YouTube Shorts.
             </p>
             <div class="hero-actions">
                 <a href="#showreel" class="btn btn-primary" id="hero-cta-showreel">
                     <i class="fa-solid fa-play"></i> Watch Showreel
                 </a>
                 <a href="#portfolio" class="btn btn-secondary" id="hero-cta-work">
-                    Explore Work <i class="fa-solid fa-arrow-right"></i>
+                    Explore Reels <i class="fa-solid fa-arrow-right"></i>
                 </a>
             </div>
         </div>
@@ -79,21 +79,25 @@
         </div>
     </section>
 
-    <!-- Showreel Showcase Section -->
+    <!-- Showreel Showcase Section (Phone Frame Layout) -->
     <section class="showreel-section" id="showreel">
         <div class="container">
             <div class="section-header text-center">
-                <span class="subtitle-badge">THE HIGHLIGHTS</span>
-                <h2 class="section-title">2026 Showreel</h2>
-                <p class="section-desc">A quick 60-second compilation showing my editing style, transitions, color grading depth, and sound design pacing.</p>
+                <span class="subtitle-badge">THE SHOWREEL</span>
+                <h2 class="section-title">2026 Short-Form Reel</h2>
+                <p class="section-desc">A vertical 30-second compilation showing hooks, dynamic motion layouts, pacing, sound effects, and retention tricks.</p>
             </div>
             
-            <div class="showreel-wrapper glass-panel">
-                <div class="video-container">
-                    <video id="main-showreel-video" class="player-video" poster="assets/showreel_thumb.jpg" controls playsinline>
-                        <source src="https://assets.mixkit.co/videos/preview/mixkit-cinematic-shot-of-a-dj-mixing-music-42289-large.mp4" type="video/mp4">
-                        Your browser does not support HTML5 video.
-                    </video>
+            <div class="showreel-phone-wrapper">
+                <div class="phone-frame glass-panel">
+                    <div class="phone-speaker"></div>
+                    <div class="phone-screen">
+                        <video id="main-showreel-video" class="player-video" poster="assets/showreel_thumb.jpg" controls loop playsinline>
+                            <source src="assets/reels_demo_1.mp4" type="video/mp4">
+                            Your browser does not support HTML5 video.
+                        </video>
+                    </div>
+                    <div class="phone-home-indicator"></div>
                 </div>
             </div>
         </div>
@@ -104,132 +108,132 @@
         <div class="container">
             <div class="section-header">
                 <span class="subtitle-badge">PORTFOLIO</span>
-                <h2 class="section-title">Featured Projects</h2>
-                <p class="section-desc">Filter through my recent works across different editing categories and formats.</p>
+                <h2 class="section-title">Featured Reels</h2>
+                <p class="section-desc">Filter through recent high-performance vertical clips by editing style.</p>
             </div>
 
             <!-- Category Filters -->
             <div class="portfolio-filters">
                 <button class="filter-btn active" data-filter="all" id="filter-all">All Projects</button>
-                <button class="filter-btn" data-filter="commercials" id="filter-commercials">Commercials</button>
-                <button class="filter-btn" data-filter="youtube" id="filter-youtube">YouTube & Social</button>
-                <button class="filter-btn" data-filter="cinematic" id="filter-cinematic">Cinematic Reels</button>
-                <button class="filter-btn" data-filter="motion" id="filter-motion">Motion Graphics</button>
+                <button class="filter-btn" data-filter="hooks" id="filter-hooks">Hooks & Motion</button>
+                <button class="filter-btn" data-filter="captions" id="filter-captions">Dynamic Captions</button>
+                <button class="filter-btn" data-filter="ads" id="filter-ads">Short Ads</button>
+                <button class="filter-btn" data-filter="gaming" id="filter-gaming">Gaming / Hype</button>
             </div>
 
-            <!-- Portfolio Grid -->
+            <!-- Portfolio Grid (9:16 Cards) -->
             <div class="portfolio-grid" id="portfolio-grid">
                 
-                <!-- Project 1: Commercial -->
-                <div class="portfolio-item glass-panel" data-category="commercials">
-                    <div class="portfolio-thumbnail">
-                        <img src="assets/project_commercial.jpg" alt="Commercial Edit Thumbnail">
+                <!-- Project 1: Hooks & Motion -->
+                <div class="portfolio-item glass-panel" data-category="hooks">
+                    <div class="portfolio-thumbnail vertical-thumb">
+                        <img src="assets/project_hooks.jpg" alt="Hook and Motion Editing Thumbnail">
                         <div class="portfolio-hover">
                             <span class="play-btn"><i class="fa-solid fa-play"></i></span>
                         </div>
-                        <span class="project-duration">01:15</span>
+                        <span class="project-duration">00:15</span>
                     </div>
                     <div class="portfolio-content">
-                        <span class="project-tag">Commercial</span>
-                        <h3 class="project-title">Urban Edge Streetwear</h3>
-                        <p class="project-description">High-energy rhythm editing, sound design focus, and custom asset transitions.</p>
-                        <button class="btn-text open-video-btn" data-video-url="https://assets.mixkit.co/videos/preview/mixkit-skater-performing-a-trick-in-slow-motion-42296-large.mp4" data-title="Urban Edge Streetwear">
-                            Watch Video <i class="fa-solid fa-chevron-right"></i>
+                        <span class="project-tag">Hooks & Motion</span>
+                        <h3 class="project-title">Streetwear Fit Check</h3>
+                        <p class="project-description">Dynamic zoom hooks, color grade adjustments, and seamless match-cut transitions.</p>
+                        <button class="btn-text open-video-btn" data-video-url="assets/reels_demo_1.mp4" data-title="Streetwear Fit Check">
+                            Watch Reel <i class="fa-solid fa-chevron-right"></i>
                         </button>
                     </div>
                 </div>
 
-                <!-- Project 2: YouTube / Social -->
-                <div class="portfolio-item glass-panel" data-category="youtube">
-                    <div class="portfolio-thumbnail">
-                        <img src="assets/project_youtube.jpg" alt="YouTube Video Thumbnail">
-                        <div class="portfolio-hover">
-                            <span class="play-btn"><i class="fa-solid fa-play"></i></span>
-                        </div>
-                        <span class="project-duration">10:40</span>
-                    </div>
-                    <div class="portfolio-content">
-                        <span class="project-tag">YouTube</span>
-                        <h3 class="project-title">Cybernetic Future Documentary</h3>
-                        <p class="project-description">Pacing for high retention, multi-cam switching, custom zoom effects, and infographics.</p>
-                        <button class="btn-text open-video-btn" data-video-url="https://assets.mixkit.co/videos/preview/mixkit-hands-of-a-man-typing-on-a-luminous-keyboard-40614-large.mp4" data-title="Cybernetic Future Documentary">
-                            Watch Video <i class="fa-solid fa-chevron-right"></i>
-                        </button>
-                    </div>
-                </div>
-
-                <!-- Project 3: Cinematic -->
-                <div class="portfolio-item glass-panel" data-category="cinematic">
-                    <div class="portfolio-thumbnail">
-                        <img src="assets/project_cinematic.jpg" alt="Cinematic Edit Thumbnail">
-                        <div class="portfolio-hover">
-                            <span class="play-btn"><i class="fa-solid fa-play"></i></span>
-                        </div>
-                        <span class="project-duration">02:30</span>
-                    </div>
-                    <div class="portfolio-content">
-                        <span class="project-tag">Cinematic</span>
-                        <h3 class="project-title">Lost in Iceland</h3>
-                        <p class="project-description">Atmospheric color grading, audio soundscape styling, and fluid spatial storytelling.</p>
-                        <button class="btn-text open-video-btn" data-video-url="https://assets.mixkit.co/videos/preview/mixkit-drone-shot-of-a-green-mountain-road-42282-large.mp4" data-title="Lost in Iceland">
-                            Watch Video <i class="fa-solid fa-chevron-right"></i>
-                        </button>
-                    </div>
-                </div>
-
-                <!-- Project 4: Motion Graphics -->
-                <div class="portfolio-item glass-panel" data-category="motion">
-                    <div class="portfolio-thumbnail">
-                        <img src="assets/project_motion.jpg" alt="Motion Graphics Edit Thumbnail">
-                        <div class="portfolio-hover">
-                            <span class="play-btn"><i class="fa-solid fa-play"></i></span>
-                        </div>
-                        <span class="project-duration">00:45</span>
-                    </div>
-                    <div class="portfolio-content">
-                        <span class="project-tag">Motion Graphics</span>
-                        <h3 class="project-title">Tech Brand Launch</h3>
-                        <p class="project-description">Keyframe animation, 3D text tracking, overlay elements, and dynamic neon logo reveal.</p>
-                        <button class="btn-text open-video-btn" data-video-url="https://assets.mixkit.co/videos/preview/mixkit-glowing-digital-network-lines-background-43093-large.mp4" data-title="Tech Brand Launch">
-                            Watch Video <i class="fa-solid fa-chevron-right"></i>
-                        </button>
-                    </div>
-                </div>
-
-                <!-- Project 5: YouTube / Social -->
-                <div class="portfolio-item glass-panel" data-category="youtube">
-                    <div class="portfolio-thumbnail">
-                        <img src="assets/project_youtube2.jpg" alt="Social Media Edit Thumbnail">
+                <!-- Project 2: Dynamic Captions -->
+                <div class="portfolio-item glass-panel" data-category="captions">
+                    <div class="portfolio-thumbnail vertical-thumb">
+                        <img src="assets/project_captions.jpg" alt="Dynamic Captions Editing Thumbnail">
                         <div class="portfolio-hover">
                             <span class="play-btn"><i class="fa-solid fa-play"></i></span>
                         </div>
                         <span class="project-duration">00:30</span>
                     </div>
                     <div class="portfolio-content">
-                        <span class="project-tag">Social (Tiktok/Reels)</span>
-                        <h3 class="project-title">Fitness Brand - Short Form</h3>
-                        <p class="project-description">Highly engaging vertical cuts, speed ramping, captions overlay, and beat syncing.</p>
-                        <button class="btn-text open-video-btn" data-video-url="https://assets.mixkit.co/videos/preview/mixkit-woman-doing-jumping-jacks-in-slow-motion-42298-large.mp4" data-title="Fitness Brand - Short Form">
-                            Watch Video <i class="fa-solid fa-chevron-right"></i>
+                        <span class="project-tag">Dynamic Captions</span>
+                        <h3 class="project-title">Tech Brand Launch</h3>
+                        <p class="project-description">Custom animated subtitles, emojis overlays, keyframe scaling, and clean pop sound design.</p>
+                        <button class="btn-text open-video-btn" data-video-url="https://assets.mixkit.co/videos/preview/mixkit-hands-of-a-man-typing-on-a-luminous-keyboard-40614-large.mp4" data-title="Tech Brand Launch">
+                            Watch Reel <i class="fa-solid fa-chevron-right"></i>
                         </button>
                     </div>
                 </div>
 
-                <!-- Project 6: Commercial -->
-                <div class="portfolio-item glass-panel" data-category="commercials">
-                    <div class="portfolio-thumbnail">
-                        <img src="assets/project_commercial2.jpg" alt="Commercial Edit Thumbnail">
+                <!-- Project 3: Short Ads -->
+                <div class="portfolio-item glass-panel" data-category="ads">
+                    <div class="portfolio-thumbnail vertical-thumb">
+                        <img src="assets/project_ads.jpg" alt="Short Form Ad Thumbnail">
                         <div class="portfolio-hover">
                             <span class="play-btn"><i class="fa-solid fa-play"></i></span>
                         </div>
-                        <span class="project-duration">01:00</span>
+                        <span class="project-duration">00:20</span>
                     </div>
                     <div class="portfolio-content">
-                        <span class="project-tag">Commercial</span>
-                        <h3 class="project-title">E-Sports Championship Promo</h3>
-                        <p class="project-description">Gamer aesthetics, glitch transitions, heavy sound synthesis, and sound effect layers.</p>
-                        <button class="btn-text open-video-btn" data-video-url="https://assets.mixkit.co/videos/preview/mixkit-young-gamer-reacts-with-excitement-while-playing-video-games-41829-large.mp4" data-title="E-Sports Championship Promo">
-                            Watch Video <i class="fa-solid fa-chevron-right"></i>
+                        <span class="project-tag">Short Ad</span>
+                        <h3 class="project-title">Fitness Energy Drink</h3>
+                        <p class="project-description">High-energy speed ramping, sound effects layering, and flashing text hooks to boost CTR.</p>
+                        <button class="btn-text open-video-btn" data-video-url="https://assets.mixkit.co/videos/preview/mixkit-woman-doing-jumping-jacks-in-slow-motion-42298-large.mp4" data-title="Fitness Energy Drink">
+                            Watch Reel <i class="fa-solid fa-chevron-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Project 4: Gaming / Hype -->
+                <div class="portfolio-item glass-panel" data-category="gaming">
+                    <div class="portfolio-thumbnail vertical-thumb">
+                        <img src="assets/project_gaming.jpg" alt="Gaming Hype Thumbnail">
+                        <div class="portfolio-hover">
+                            <span class="play-btn"><i class="fa-solid fa-play"></i></span>
+                        </div>
+                        <span class="project-duration">00:45</span>
+                    </div>
+                    <div class="portfolio-content">
+                        <span class="project-tag">Gaming / Hype</span>
+                        <h3 class="project-title">Pro E-Sports Clutch</h3>
+                        <p class="project-description">Glitch overlays, screen shakes, beat-synced highlights, and sound design impacts.</p>
+                        <button class="btn-text open-video-btn" data-video-url="https://assets.mixkit.co/videos/preview/mixkit-young-gamer-reacts-with-excitement-while-playing-video-games-41829-large.mp4" data-title="Pro E-Sports Clutch">
+                            Watch Reel <i class="fa-solid fa-chevron-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Project 5: Hooks & Motion -->
+                <div class="portfolio-item glass-panel" data-category="hooks">
+                    <div class="portfolio-thumbnail vertical-thumb">
+                        <img src="assets/project_hooks2.jpg" alt="Hook Editing Thumbnail 2">
+                        <div class="portfolio-hover">
+                            <span class="play-btn"><i class="fa-solid fa-play"></i></span>
+                        </div>
+                        <span class="project-duration">00:12</span>
+                    </div>
+                    <div class="portfolio-content">
+                        <span class="project-tag">Hooks & Motion</span>
+                        <h3 class="project-title">Creator Hype Intro</h3>
+                        <p class="project-description">Sticker animations, zoom hooks, and seamless visual loops to increase completion rate.</p>
+                        <button class="btn-text open-video-btn" data-video-url="https://assets.mixkit.co/videos/preview/mixkit-cinematic-shot-of-a-dj-mixing-music-42289-large.mp4" data-title="Creator Hype Intro">
+                            Watch Reel <i class="fa-solid fa-chevron-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Project 6: Short Ads -->
+                <div class="portfolio-item glass-panel" data-category="ads">
+                    <div class="portfolio-thumbnail vertical-thumb">
+                        <img src="assets/project_ads2.jpg" alt="Short Ad Thumbnail 2">
+                        <div class="portfolio-hover">
+                            <span class="play-btn"><i class="fa-solid fa-play"></i></span>
+                        </div>
+                        <span class="project-duration">00:15</span>
+                    </div>
+                    <div class="portfolio-content">
+                        <span class="project-tag">Short Ad</span>
+                        <h3 class="project-title">SaaS Web Tool Promo</h3>
+                        <p class="project-description">Direct-response UI zoom-ins, cursor click effects, and fast-paced text formatting.</p>
+                        <button class="btn-text open-video-btn" data-video-url="https://assets.mixkit.co/videos/preview/mixkit-glowing-digital-network-lines-background-43093-large.mp4" data-title="SaaS Web Tool Promo">
+                            Watch Reel <i class="fa-solid fa-chevron-right"></i>
                         </button>
                     </div>
                 </div>
@@ -242,9 +246,9 @@
     <section class="workflow-section" id="workflow">
         <div class="container">
             <div class="section-header text-center">
-                <span class="subtitle-badge">THE WORKFLOW</span>
-                <h2 class="section-title">My Post-Production Arsenal</h2>
-                <p class="section-desc">Every video is a puzzle. Here are the core skills and tools I bring to solve it.</p>
+                <span class="subtitle-badge">THE RETENTION FORMULA</span>
+                <h2 class="section-title">Engineered to Retain Viewers</h2>
+                <p class="section-desc">Short-form videos require a specific science. Here is how I build clips that stand out in the feed.</p>
             </div>
 
             <div class="workflow-grid">
@@ -252,44 +256,44 @@
                 <!-- Core Specialty 1 -->
                 <div class="workflow-card glass-panel">
                     <div class="workflow-icon-wrap">
-                        <i class="fa-solid fa-scissors"></i>
+                        <i class="fa-solid fa-magnet"></i>
                     </div>
-                    <h3>Pacing & Narrative</h3>
-                    <p>Maintaining narrative flow, choosing the exact frame to cut, and matching audio beats to visuals to maximize viewer retention.</p>
+                    <h3>First 3-Sec Hooks</h3>
+                    <p>Creating immediate visual or audio pattern-interrupts (zoom hooks, custom text, audio cues) to stop the user from scrolling.</p>
                 </div>
 
                 <!-- Core Specialty 2 -->
                 <div class="workflow-card glass-panel">
                     <div class="workflow-icon-wrap">
-                        <i class="fa-solid fa-palette"></i>
+                        <i class="fa-solid fa-gauge-high"></i>
                     </div>
-                    <h3>Color Grading</h3>
-                    <p>Color correction, matching multi-camera setups, creating custom LUT signatures, and adding atmospheric mood grading (HDR/SDR).</p>
+                    <h3>Pacing & Sound FX</h3>
+                    <p>Aggressive rhythmic cuts, speed ramping, Foley integration, and audio whooshes to maintain high engagement every single second.</p>
                 </div>
 
                 <!-- Core Specialty 3 -->
                 <div class="workflow-card glass-panel">
                     <div class="workflow-icon-wrap">
-                        <i class="fa-solid fa-volume-high"></i>
+                        <i class="fa-solid fa-closed-captioning"></i>
                     </div>
-                    <h3>Sound Design</h3>
-                    <p>Audio cleaning, voice enhancement, layering Foley, adding impacts/whooshes, and audio leveling to ensure cinema-quality soundscapes.</p>
+                    <h3>Kinetic Subtitles</h3>
+                    <p>Stylized, high-contrast subtitles styled after viral creators (Alex Hormozi/Ali Abdaal style) to keep users engaged even on mute.</p>
                 </div>
 
                 <!-- Core Specialty 4 -->
                 <div class="workflow-card glass-panel">
                     <div class="workflow-icon-wrap">
-                        <i class="fa-solid fa-wand-magic-sparkles"></i>
+                        <i class="fa-solid fa-arrow-rotate-left"></i>
                     </div>
-                    <h3>Visual FX & Motion</h3>
-                    <p>Seamless compositing, object removal, tracking titles, animated assets, speed ramps, and premium transition overlays.</p>
+                    <h3>Infinite Loop Setup</h3>
+                    <p>Arranging the end of the script and final frames to transition seamlessly back to the start, inflating the average view count.</p>
                 </div>
 
             </div>
 
             <!-- Software Tech Stack Console -->
             <div class="tech-console glass-panel">
-                <h3 class="console-title text-center"><i class="fa-solid fa-terminal"></i> Software Suite Proficiency</h3>
+                <h3 class="console-title text-center"><i class="fa-solid fa-terminal"></i> Post-Production Tech Stack</h3>
                 <div class="console-skills">
                     
                     <div class="console-skill">
@@ -302,7 +306,7 @@
 
                     <div class="console-skill">
                         <div class="skill-info">
-                            <span class="skill-name"><i class="fa-solid fa-square-check"></i> DaVinci Resolve (Color & Edit)</span>
+                            <span class="skill-name"><i class="fa-solid fa-square-check"></i> Adobe After Effects (Infographics & Text)</span>
                             <span class="skill-percent">90%</span>
                         </div>
                         <div class="skill-bar"><div class="skill-progress" style="width: 90%"></div></div>
@@ -310,15 +314,15 @@
 
                     <div class="console-skill">
                         <div class="skill-info">
-                            <span class="skill-name"><i class="fa-solid fa-square-check"></i> Adobe After Effects</span>
-                            <span class="skill-percent">80%</span>
+                            <span class="skill-name"><i class="fa-solid fa-square-check"></i> CapCut Pro / Premiere Subtitling</span>
+                            <span class="skill-percent">95%</span>
                         </div>
-                        <div class="skill-bar"><div class="skill-progress" style="width: 80%"></div></div>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 95%"></div></div>
                     </div>
 
                     <div class="console-skill">
                         <div class="skill-info">
-                            <span class="skill-name"><i class="fa-solid fa-square-check"></i> Audition & Sound Tools</span>
+                            <span class="skill-name"><i class="fa-solid fa-square-check"></i> DaVinci Resolve (Color Grading)</span>
                             <span class="skill-percent">85%</span>
                         </div>
                         <div class="skill-bar"><div class="skill-progress" style="width: 85%"></div></div>
@@ -334,9 +338,9 @@
     <section class="testimonials-section" id="testimonials">
         <div class="container">
             <div class="section-header text-center">
-                <span class="subtitle-badge">TESTIMONIALS</span>
-                <h2 class="section-title">What Clients Say</h2>
-                <p class="section-desc">Collaboration results that speak for themselves.</p>
+                <span class="subtitle-badge">CREATOR RESULTS</span>
+                <h2 class="section-title">Proven Engagement</h2>
+                <p class="section-desc">Delivering viral loops, higher completions, and client satisfaction.</p>
             </div>
 
             <div class="testimonials-grid">
@@ -350,7 +354,7 @@
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                     </div>
-                    <p class="testimonial-text">"Viera turned our raw skate shots and street footage into a masterpiece. The pacing was absolutely electric, and the client response was massive. 10/10!"</p>
+                    <p class="testimonial-text">"Viera completely transformed our vertical video ads. Average watch time jumped from 4 seconds to 12 seconds, resulting in a 40% reduction in our CAC."</p>
                     <div class="testimonial-author">
                         <div class="author-info">
                             <h4 class="author-name">Alex Mercer</h4>
@@ -368,11 +372,11 @@
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                     </div>
-                    <p class="testimonial-text">"Our YouTube docu-series retention rates skyrocketed by 35% after we hired Viera. The custom motion graphics and audio design make our content stand out from the competition."</p>
+                    <p class="testimonial-text">"Our TikTok account gained 150k followers in less than 2 months after working with Viera. The speed ramps, custom sound effects, and kinetic subtitles are flawless."</p>
                     <div class="testimonial-author">
                         <div class="author-info">
                             <h4 class="author-name">Sarah Jenkins</h4>
-                            <span class="author-title">Lead Producer, Future Mind</span>
+                            <span class="author-title">Fitness Influencer (1.2M followers)</span>
                         </div>
                     </div>
                 </div>
@@ -386,11 +390,11 @@
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                     </div>
-                    <p class="testimonial-text">"Surgical grade coloring and impeccable sound selection. They took our landscape drone footage and crafted a stunning cinematic travel visualizer. Highly professional."</p>
+                    <p class="testimonial-text">"The editing is extremely dynamic. The custom loops work so well that many viewers watch our Reels multiple times. Outstanding communication."</p>
                     <div class="testimonial-author">
                         <div class="author-info">
                             <h4 class="author-name">David Zhao</h4>
-                            <span class="author-title">Travel Creator & Filmmaker</span>
+                            <span class="author-title">Tech Content Creator</span>
                         </div>
                     </div>
                 </div>
@@ -400,20 +404,20 @@
             <!-- Statistics Banner -->
             <div class="stats-banner glass-panel">
                 <div class="stat-item">
-                    <span class="stat-number">150+</span>
-                    <span class="stat-label">Videos Delivered</span>
+                    <span class="stat-number">300+</span>
+                    <span class="stat-label">Reels Delivered</span>
                 </div>
                 <div class="stat-item">
-                    <span class="stat-number">20M+</span>
-                    <span class="stat-label">Total Views Generated</span>
+                    <span class="stat-number">50M+</span>
+                    <span class="stat-label">Viral Views Generated</span>
                 </div>
                 <div class="stat-item">
-                    <span class="stat-number">100%</span>
-                    <span class="stat-label">On-Time Delivery</span>
+                    <span class="stat-number">45%</span>
+                    <span class="stat-label">Avg. Completion Rate</span>
                 </div>
                 <div class="stat-item">
-                    <span class="stat-number">15+</span>
-                    <span class="stat-label">Global Clients</span>
+                    <span class="stat-number">20+</span>
+                    <span class="stat-label">Creators Scaled</span>
                 </div>
             </div>
 
@@ -424,9 +428,9 @@
     <section class="contact-section" id="contact">
         <div class="container contact-container">
             <div class="contact-info-panel">
-                <span class="subtitle-badge">GET IN TOUCH</span>
-                <h2 class="section-title">Let's create something legendary</h2>
-                <p>Have an upcoming campaign, showreel project, or need continuous social video edits? Drop a message detailing your project scope and let's bring it to life.</p>
+                <span class="subtitle-badge">LET'S COLLABORATE</span>
+                <h2 class="section-title">Ready to dominate the feed?</h2>
+                <p>Have a custom campaign, want to scale your personal brand, or need batch video editing? Leave a message detailing your project scope and reference channels.</p>
                 
                 <ul class="contact-details">
                     <li>
@@ -456,7 +460,7 @@
                     <a href="#" class="social-icon" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
                     <a href="#" class="social-icon" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
                     <a href="#" class="social-icon" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
-                    <a href="#" class="social-icon" aria-label="Vimeo"><i class="fa-brands fa-vimeo-v"></i></a>
+                    <a href="#" class="social-icon" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
                 </div>
             </div>
 
@@ -476,21 +480,20 @@
                     <div class="form-group">
                         <label for="project-type">Project Format</label>
                         <select id="project-type" name="project-type" required>
-                            <option value="" disabled selected>Select an option</option>
-                            <option value="commercial">Commercial / Ad Campaign</option>
-                            <option value="youtube">YouTube / Long Form</option>
-                            <option value="shorts">Short Form (Tiktok/Reels/Shorts)</option>
-                            <option value="motion">Motion Graphics & VFX</option>
-                            <option value="other">Other / Custom Collaboration</option>
+                            <option value="" disabled selected>Select format</option>
+                            <option value="reels">TikTok / Instagram Reels Batch</option>
+                            <option value="ads">Short Form Video Ads</option>
+                            <option value="channel">Continuous Channel Editing</option>
+                            <option value="other">Other Collaboration</option>
                         </select>
                     </div>
                     <div class="form-group">
-                        <label for="message">Project Brief & Details</label>
-                        <textarea id="message" name="message" rows="5" required placeholder="Tell me about your video length, reference styles, deadlines, etc..."></textarea>
+                        <label for="message">Project Details & References</label>
+                        <textarea id="message" name="message" rows="5" required placeholder="Paste reference TikTok/Reels links, details on monthly volume, deadliness, etc..."></textarea>
                     </div>
                     
                     <button type="submit" class="btn btn-primary btn-block" id="form-submit-btn">
-                        Send Project Brief <i class="fa-solid fa-paper-plane"></i>
+                        Pitch Project <i class="fa-solid fa-bolt"></i>
                     </button>
                     
                     <div class="form-message" id="form-message"></div>
@@ -502,16 +505,16 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container footer-container text-center">
-            <p>&copy; 2026 Viera Visuals. All rights reserved. Crafting premium content worldwide.</p>
+            <p>&copy; 2026 Viera Visuals. All rights reserved. Engineering high-retention content worldwide.</p>
         </div>
     </footer>
 
-    <!-- Video Lightbox Modal Overlay -->
+    <!-- Video Lightbox Modal Overlay (Vertical Player) -->
     <div class="video-modal" id="video-modal">
         <button class="modal-close" id="modal-close" aria-label="Close Modal">&times;</button>
-        <div class="modal-content glass-panel">
+        <div class="modal-content vertical-modal glass-panel">
             <h3 class="modal-video-title" id="modal-video-title">Project Title</h3>
-            <div class="modal-video-container">
+            <div class="modal-video-container vertical-video-container">
                 <video id="modal-player-video" class="player-video" controls playsinline>
                     <source src="" type="video/mp4">
                     Your browser does not support HTML5 video.
