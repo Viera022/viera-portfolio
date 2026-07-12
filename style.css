@@ -484,12 +484,15 @@ button, input, select, textarea {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 30px;
     margin: 0 auto;
-    max-width: 320px;
+    max-width: 1000px;
+    flex-wrap: wrap;
 }
 
 .phone-frame {
     width: 100%;
+    max-width: 290px;
     aspect-ratio: 9 / 19;
     background: #000;
     border-radius: 40px;
